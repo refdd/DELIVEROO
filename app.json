@@ -21,10 +21,26 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDwEf1YCkgNk5O-khBrBNV0jstwar2eB5M"
+        }
+      },
+      "package": "com.mohamed_refat.DELIVEROO"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88069ab3-4398-4c5e-a564-10e62ceb1e72"
+      }
     }
   }
 }
